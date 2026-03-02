@@ -15,10 +15,24 @@ function add(num1, num2=0) {
 }
 add(10);
 
-//default value set 1 for addition
+//default value set 1 for multiply
 function mul(num1, num2=1) {
     const mul = num1 * num2;
     console.log(num1, num2, mul);
     return mul;
 }
 mul(10);
+
+//default value set for string
+function fullName(firstName, lastName){
+    console.log(firstName +' ' +lastName);
+    return fullName;
+}
+fullName('Afifaa Jannat');  // output asbe Afifaa Jannat Undefined
+
+//default value set '' for string
+function fullName2(firstName, lastName=''){
+    console.log(firstName +' ' +lastName);
+    return fullName2;
+}
+fullName2('Afifaa Jannat');  //empty string use korbo
