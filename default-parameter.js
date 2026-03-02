@@ -45,3 +45,13 @@ fullName2('Afifaa Jannat');  //empty string use korbo
 //array  --> []  // for array empty array
 //object --> {}  // for object need empty object
 //boolean --> true or false // it will be depend on your output.
+
+// Function with deafult parameter
+function greet(name = "Guest") {
+    console.log(`Hello, ${name}!`);
+}
+//calling the function without passing any argument
+greet();   // output: Hello, Guest!
+
+//calling function with an argument
+greet("tabu");  // output:  Hello, tabu!
