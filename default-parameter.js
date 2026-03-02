@@ -7,3 +7,13 @@ function add(num1, num2) {
 
 }
 add(10);     // output NaN
+
+//default value set for addition
+
+function add(num1, num2=0) {
+    const addition = num1 + num2;
+    console.log(num1, num2, addition);
+    return addition;
+
+}
+add(10);
