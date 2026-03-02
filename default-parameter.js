@@ -36,3 +36,12 @@ function fullName2(firstName, lastName=''){
     return fullName2;
 }
 fullName2('Afifaa Jannat');  //empty string use korbo
+
+//Default Paremeter Use for function
+//string  --> '';
+//number --> 0 // for addition
+//number --> 1  // for multiply
+//number --> 1   // for division
+//array  --> []  // for array empty array
+//object --> {}  // for object need empty object
+//boolean --> true or false // it will be depend on your output.
