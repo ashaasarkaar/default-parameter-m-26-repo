@@ -4,16 +4,21 @@ function add(num1, num2) {
     const addition = num1 + num2;
     console.log(num1, num2, addition);
     return addition;
-
 }
 add(10);     // output NaN
 
-//default value set for addition
-
+//default value set 0 for addition
 function add(num1, num2=0) {
     const addition = num1 + num2;
     console.log(num1, num2, addition);
     return addition;
-
 }
 add(10);
+
+//default value set 1 for addition
+function mul(num1, num2=1) {
+    const mul = num1 * num2;
+    console.log(num1, num2, mul);
+    return mul;
+}
+mul(10);
